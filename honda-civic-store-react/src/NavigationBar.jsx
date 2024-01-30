@@ -1,11 +1,13 @@
-import NavigationItem from './NavigationItem';
+import NavigationItem from "./NavigationItem";
+import "./App.css";
 
 function NavigationBar() {
   const navigation = [
-    { title: 'Product', link: 'product' },
-    { title: 'Accessories', link: 'accessories' },
-    { title: 'Gallery', link: 'gallery' },
-    { title: 'Cart', link: 'cart' },
+    { title: "Home", link: "home" },
+    { title: "Product", link: "product" },
+    { title: "Accessories", link: "accessories" },
+    { title: "Gallery", link: "gallery" },
+    { title: "Cart", link: "cart" },
   ];
   return (
     <nav>

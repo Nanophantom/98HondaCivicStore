@@ -1,0 +1,47 @@
+h1 {
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 14px 16px;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #dddddd;
+}
+
+p {
+}
+
+.div-home-text {
+  padding-top: 50px;
+  padding-left: 50px;
+  color: #dddddd;
+  font-size: 35px;
+  float: left;
+}
+
+/* --- CLASSES ---*/
+.div-home-image {
+  background-image: url("https://images.unsplash.com/photo-1519120433933-22bc753101f3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vh;
+}
